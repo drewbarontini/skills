@@ -27,7 +27,9 @@ If the input is a straightforward factual question with a known retrieval path, 
 5. **Find the live uncertainty.** Ask what, if learned, could materially change understanding or the next decision.
 6. **Set a useful boundary.** Name the population, context, behavior, or time window only when it improves investigability.
 7. **Frame the central Inquiry.** Prefer an open question that reality can inform. Avoid questions so broad they cannot guide a next move or so narrow they merely confirm a belief.
-8. **Choose the next move.** Identify the smallest evidence-gathering action that would improve understanding; do not design a full Experiment unless requested.
+8. **Choose the next move.** Identify the smallest action likely to improve the Working Theory. When useful, choose the Thinking Space and Thinking Mode that best support the action. If cognitive work is not enough and contact with reality is required, the Next Move may become a bounded Experiment; do not design the full Experiment unless requested.
+
+Read [references/thinking-spaces.md](references/thinking-spaces.md) when Space or Mode would clarify the Next Move, or when deciding whether further cognitive work or an Experiment would help most.
 
 ## Output
 
@@ -50,10 +52,10 @@ If the input is a straightforward factual question with a known retrieval path, 
 [Relevant context, population, or scope; omit if unnecessary.]
 
 ## Next Move
-[The smallest action likely to improve understanding.]
+[The smallest action likely to improve the Working Theory.]
 ```
 
-Use only the fields that add investigative value. The central Inquiry and enough context to understand it are required.
+Keep the central Inquiry, a provisional Working Theory, and a concrete Next Move, with enough context to understand them. Use the other fields only when they add investigative value. Next Move remains the primary action output; Space and Mode are optional orientation, not additional required Markdown headings. If useful, mention them within Next Move. When an execution environment exposes equivalent structured fields, populate optional `Active Space` and `Active Mode` only when clearly implied by the action.
 
 ## Quality Bar
 
