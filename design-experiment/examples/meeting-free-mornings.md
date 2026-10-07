@@ -6,7 +6,7 @@ Does protecting two mornings each week improve sustained attention on difficult 
 
 ## Assertion
 
-Two meeting-free mornings will increase uninterrupted creative work, but may shift coordination costs into the afternoon.
+The Working Theory is that meeting timing fragments creative attention while enabling coordination. This test examines the particular claim that two meeting-free mornings will increase uninterrupted creative work without materially delaying necessary coordination.
 
 ## Test
 
@@ -33,4 +33,4 @@ For three weeks, protect Tuesday and Thursday mornings from internal meetings fo
 
 ## Next
 
-Review the Assertion after three weeks, then end the Experiment, revise it, or consider turning the supported conditions into a Practice and Rhythm.
+After three weeks, compare the observations with the Assertion and carry the findings back to the same Inquiry. Revise or retain the Working Theory with reasons, refine the Current Inquiry if a different constraint emerges, and choose a concrete Next Move. Then end the Experiment, design a narrower follow-up, or consider turning supported conditions into a Practice and Rhythm.

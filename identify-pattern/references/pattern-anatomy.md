@@ -5,7 +5,7 @@ Use these distinctions when forming or reviewing a Pattern.
 ## Knowledge Layers
 
 - **Signal** — a meaningful observation, tension, surprise, curiosity, or recurring experience.
-- **Inquiry** — an active question worth investigating.
+- **Inquiry** — the durable state of an unfolding investigation: Current Inquiry, Working Theory, and Next Move, with relevant Sources and Working Material supporting continuity.
 - **Pattern** — a recurring relationship that transfers across contexts.
 - **Model** — a higher-order structure that organizes and explains related Patterns.
 - **System** — an integrated body of philosophy, structure, and practice.

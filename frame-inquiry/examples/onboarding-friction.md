@@ -4,7 +4,7 @@
 
 > Trial users abandon workspace setup. We should add a skip button. Help us investigate.
 
-## Central Inquiry
+## Current Inquiry
 
 What prevents trial users from continuing through workspace setup, and how does that friction vary with what they expect to accomplish during their first session?
 

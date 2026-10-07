@@ -71,3 +71,15 @@ Expected characteristics: proposes comparing delivery and appointment times for 
 > Different clients disagree about what “ready to share” means. I suspect expectations differ, but have only one complaint. Frame an Inquiry for a plain Markdown handoff. For the next move, I want to hear from clients with different expectations. I called this Space: Question, Mode: Explorer—is that useful orientation?
 
 Expected characteristics: frames an open Inquiry and chooses a concrete conversation or comparison of client perspectives. If addressing the supplied labels, distinguishes Question as KnowFlow movement and Explorer as a Toolkit Posture; Socialize may orient engagement with other people. Reading can include conversations, and Modes can cross Spaces. Preserves the Move as primary, with no required `Active Space` / `Active Mode` headings or demand for Notion properties. Does not turn correction of labels into the main output.
+
+## 12. Existing Inquiry — Changed Evidence
+
+> Reframe this existing Inquiry rather than creating another one. Current Inquiry: Why do reminders arrive too late? Working Theory: late delivery causes missed appointments. Next Move: compare delivery and appointment timestamps. We have now compared them: the reminders arrived before the missed appointments, and two interview notes describe confusion about the location. Keep the source report and interview notes connected.
+
+Expected characteristics: preserves the Inquiry's identity and source context; explains that late delivery is weakened as an explanation; reframes an open question about what prevents attendance, treating location confusion as provisional. Returns Current Inquiry, Working Theory, and a concrete Next Move. Distinguishes the timestamp report from working interview notes and does not conduct an unrequested investigation or declare the new cause proven.
+
+## 13. Avoid Overreach — No Working Theory Yet
+
+> Several customers say setup felt difficult, but we have no explanation yet. Frame the Inquiry. We have source recordings and some rough excerpts and notes; none of this is ready to become Knowledge.
+
+Expected characteristics: acknowledges that no Working Theory is supported yet rather than inventing one; frames an open question and a concrete next learning move. Keeps Sources distinct from Working Material, without requiring every artifact to be copied, preserved, or promoted to Knowledge.

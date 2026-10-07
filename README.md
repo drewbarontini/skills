@@ -28,8 +28,8 @@ The repository follows the open [Agent Skills specification](https://agentskills
 | Skill | Job |
 | --- | --- |
 | [`identify-pattern`](identify-pattern/) | Turn observations or repeated experience into a tested, transferable Pattern. |
-| [`frame-inquiry`](frame-inquiry/) | Turn ambiguity or a meaningful Signal into a focused Inquiry worth investigating. |
-| [`design-experiment`](design-experiment/) | Turn uncertainty or an Inquiry into a bounded test that can change a Working Theory. |
+| [`frame-inquiry`](frame-inquiry/) | Frame or reframe an Inquiry's Current Inquiry, Working Theory, and Next Move. |
+| [`design-experiment`](design-experiment/) | Design a bounded test of a Working Theory with a review handoff back to the Inquiry. |
 | [`compare-perspectives`](compare-perspectives/) | Use genuinely distinct perspectives to expose tension and form better integrated judgment. |
 | [`map-shape`](map-shape/) | Turn a fuzzy product opportunity into a structured, simplified, and sequenced shape of value. |
 | [`map-product-anatomy`](map-product-anatomy/) | Turn a software product surface or flow into a compact, versionable anatomy of Screens, Components, Actions, States, and Flows. |

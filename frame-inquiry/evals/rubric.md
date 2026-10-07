@@ -15,6 +15,9 @@ Score each dimension from 0 to 2.
 
 When reviewing the Next Move, also check:
 
+- Keep Current Inquiry, Working Theory, and Next Move as the core state. An unsupported Working Theory can be explicitly absent; do not invent a belief to fill the field.
+- When revisiting an Inquiry, preserve its identity and useful relationships, explain evidence-backed changes, and distinguish Sources from Working Material without promoting all material into Knowledge.
+
 - Space and Mode may clarify the action, but labels never substitute for a concrete learning action. Do not penalize their omission when they add no value.
 - Choose the action first; do not force every Inquiry into a Space or Mode, or favor continued cognitive work when a bounded Experiment would better test the Working Theory.
 - Keep Spaces (Reading, Writing, Knowledge), Modes (Encounter, Articulate, Structure, Socialize, Challenge), KnowFlow movements, and Toolkit Postures distinct. Explorer, Integrator, and Editor are Postures, not Modes.

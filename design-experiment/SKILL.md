@@ -23,12 +23,12 @@ An Experiment ends or evolves when enough has been learned. A Practice persists 
 ## Method
 
 1. **Name the Inquiry.** State the uncertainty the test serves.
-2. **Make the Assertion explicit.** Write the current belief in a form that evidence could strengthen, narrow, or overturn.
+2. **Make the Assertion explicit.** Select the particular claim from the Inquiry's broader Working Theory that this test can strengthen, narrow, or overturn. Preserve the connection between the claim and the theory; one test need not resolve the whole Inquiry.
 3. **Choose real contact.** Select an intervention or observation that exposes the Assertion to users, behavior, evidence, experience, or another relevant reality.
 4. **Bound the test.** Limit duration, participants, surface area, cost, or repetitions enough to learn without creating a disguised project. Use only relevant boundaries.
 5. **Define observable Signals.** Include qualitative and quantitative evidence when each matters. Avoid vanity metrics disconnected from the Inquiry.
 6. **Map outcomes to learning.** Explain what different plausible outcomes would change in the Working Theory. Include ambiguous or mixed outcomes.
-7. **Choose the next branch.** End, run another Experiment, update the Inquiry, or turn supported learning into Practice.
+7. **Plan the review handoff.** Explain how the results will return to the same Inquiry: compare evidence with the Assertion, revise or retain the Working Theory with reasons, and update the Current Inquiry and Next Move as warranted. Then choose whether to end, run another Experiment, integrate durable Knowledge, or consider Practice. Inconclusive evidence may leave the theory unchanged while changing the next learning move.
 
 ## Output
 
@@ -39,7 +39,7 @@ An Experiment ends or evolves when enough has been learned. A Practice persists 
 [What are we trying to understand?]
 
 ## Assertion
-[What do we currently believe?]
+[Which particular claim from the Working Theory will this test examine?]
 
 ## Test
 [What will we try or observe?]
@@ -58,11 +58,13 @@ An Experiment ends or evolves when enough has been learned. A Practice persists 
 - If results are mixed or inconclusive, [...].
 
 ## Next
-[End | run another Experiment | update the Inquiry | consider Practice]
+[How the review will update the same Inquiry's state, and what would justify ending, another Experiment, Knowledge integration, or Practice.]
 ```
 
 Do not fill unknown baselines, thresholds, sample sizes, or dates with invented precision. State what must be decided before the test begins.
 
+Designing the Experiment specifies a future review; it does not imply the test has run or justify changing the Working Theory without results. When reviewing supplied results, link the evidence and explain the supported changes before choosing the next branch.
+
 ## Quality Bar
 
-A strong Experiment makes one important uncertainty visible, can change the Assertion, reaches relevant reality, has proportionate boundaries, produces interpretable Signals, and explains how learning—not mere completion—determines the next move.
+A strong Experiment makes one important uncertainty visible, ties its Assertion to the Working Theory, reaches relevant reality, has proportionate boundaries, produces interpretable Signals, and returns learning to the Inquiry before choosing the next move.

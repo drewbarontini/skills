@@ -37,3 +37,15 @@ Poor output:
 > Goal: improve retention. Test: launch the full redesign. Duration: Q4. Success: retention goes up. Next: keep the redesign.
 
 Why it fails: the Assertion is absent, the intervention is an unbounded project, the signal is underspecified, causality is uninterpretable, and no outcome can meaningfully update the theory.
+
+## 7. Existing Inquiry — Test One Claim
+
+> Our Inquiry asks what prevents trial users from reaching first value. The Working Theory is that unfamiliar language, required setup, and unclear value all contribute. Design a small test of clearer setup labels, linked to this Inquiry. We have not run it yet.
+
+Expected characteristics: derives a particular Assertion about language from the broader Working Theory; does not claim that testing labels resolves setup or value uncertainty. Plans a review that carries results back to the same Inquiry, with possible changes to the Working Theory and Next Move. Does not invent results, revise the actual theory before evidence arrives, or create a second Inquiry.
+
+## 8. Review Handoff — Inconclusive Evidence
+
+> Design a bounded test of whether protected mornings help concentration. Explain how a review should return to our Inquiry if focus improves for some people but coordination costs and workload differences make the result inconclusive.
+
+Expected characteristics: maps mixed outcomes to qualified learning; allows the Working Theory to remain provisional while refining the next test or learning move. Makes updating the Inquiry part of the review for every outcome, including stopping the Experiment, rather than an optional alternative to reviewing it.
