@@ -30,7 +30,9 @@ Convert structures into independent units of value:
 2. Define the boundary.
 3. Test independence.
 
-Ask: **What can we build and ship entirely independently?** Use this as a test of independence, not a requirement that every scope ship alone. A valid slice should contribute to a usable flow; identify a value bundle when several scopes are needed together. Database, API, and interface layers are usually parts of a vertical slice, not separate value slices.
+Ask: **If this scope shipped and work stopped here, could someone complete something useful?** Each scope must provide independently releasable, usable end-user value on top of the product already available. Dependencies on earlier released scopes are valid; dependency on future work for basic usefulness is not. Combine interdependent pieces into one scope. Database, API, and interface layers are usually build units within a scope, not separate scopes.
+
+Name each scope with a compressed, memorable, Title Case, two- or three-word name, followed by a plain action-oriented shorthand. For example: **View Recall** — *Save and return to a view.* Keep the name stable as milestone and feature language; naming does not make the scope a canonical Pattern.
 
 ## Simplify
 
@@ -40,11 +42,10 @@ Show subtraction. Mark which states, fields, controls, permissions, variants, or
 
 ## Sequence
 
-- **Build units** are slices defined as they can be built.
-- **Value units** are what can be delivered to create real user value.
-- A **bundle** combines slices that only become valuable together.
+- **Build units** are pieces that can be implemented or deployed separately, including backend preparation and work behind flags.
+- **Value units** are the scopes that can be released to create usable end-user value.
 
-Sequence dependencies while looking for foundations that can safely ship independently. Do not call a technical layer a release merely because it can be deployed.
+Sequence scope releases by value and dependencies. Keep technical staging in optional Delivery notes within its scope. Preparatory changes can be live in production before the scope is exposed to users; deploying those changes does not count as delivering the scope's value. Combine pieces that only become valuable together into one scope rather than presenting them as separate scope releases.
 
 ## Detailed Shape Map
 
@@ -68,11 +69,11 @@ Use this form when a detailed map is requested or the relationships need more vi
 - [...]
 
 ## Slices
-### [User-facing slice]
+### [Scope Name] — [Action-oriented shorthand]
 - Value: [...]
 - Boundary: In [...]; Out [...]
 - Dependencies: [...]
-- Independence test: [Can stand alone, or belongs to a named value bundle.]
+- Independence test: [Useful if released on top of the existing product and no further work follows.]
 
 ## Simplification
 - Keep: [...]
@@ -80,7 +81,7 @@ Use this form when a detailed map is requested or the relationships need more vi
 - Defer / remove: [...]
 
 ## Sequence
-1. [Build unit or value bundle] — because [...]
+1. [Scope release, with any preparatory build units distinguished] — because [...]
 
 ## Remaining Uncertainty
 - [Question, consequence, and next action.]

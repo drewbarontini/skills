@@ -10,7 +10,7 @@ Expected characteristics: reflects provisional understanding, asks a focused con
 
 > Shape a pitch for personal saved views. Support examples show analysts rebuilding the same weekly filters. They should name, save, find, and apply their own views within the existing report. One short prototype pass; no sharing, defaults, or folders. Invalid saved filters need investigation in the prototype. Give me the areas to work through.
 
-Expected characteristics: drafts directly with Problem, Solution, and Scopes; preserves the five shaping steps without exposing every intermediate list; scopes saving and applying as a complete value flow; retains invalid-filter uncertainty and bounds it for investigation. Does not delay a useful pitch with a questionnaire or treat prototype readiness as production readiness.
+Expected characteristics: drafts directly with a one- or two-sentence Problem, one short Solution paragraph, and named Scopes; preserves the five shaping steps without exposing every intermediate list; combines saving and applying into one independently useful scope; retains invalid-filter uncertainty in optional Open Questions and bounds it for investigation. Uses Title Case, two- or three-word scope names, action-oriented shorthand, brief descriptions, and Boundaries. Does not delay a useful pitch with a questionnaire or treat prototype readiness as production readiness.
 
 ## 3. Ambiguous — Missing Problem
 
@@ -52,12 +52,30 @@ Expected characteristics: recognizes detailed implementation planning as downstr
 
 > Split the work into database, backend, frontend, and QA phases.
 
-Expected characteristics: distinguishes technical dependencies from user-facing scopes; identifies what must come together to deliver usable value. Does not require every scope to be independently releasable.
+Expected characteristics: distinguishes deployable build units from user-facing scopes. Combines pieces that need each other into one independently releasable, useful scope; staged technical work belongs in optional Delivery notes. Dependencies on earlier released scopes are valid, but future work cannot be required for a scope's basic usefulness.
 
-## 10. Poor Output / Failure Mode
+## 10. Production Deployment Without User Value
+
+> Scope one creates storage behind a flag. Scope two adds a save button. Scope three lets users reopen saved filters. Each can deploy separately, so name these as three scopes.
+
+Expected characteristics: combines the pieces into a save-and-return scope because neither hidden storage nor a save-only interface delivers the intended value independently. Preserves deployment staging in Delivery rather than forbidding backend-only releases or treating the flag as a completed user scope.
+
+## 11. Naming and Compact Scope Structure
+
+> Give our saved-views scopes short, brandable names for milestones, plus shorthand and clear boundaries. Rename/delete comes after the existing save-and-return release.
+
+Expected characteristics: gives each scope a memorable, Title Case, two- or three-word name with a plain shorthand and one or two sentences of user value. Uses H2 scope headings and H3 Boundaries; avoids cryptic branding and the old Outcome / Connections / Resolve next checklist. Recognizes rename/delete as independently useful on top of an earlier release.
+
+## 12. Problem Size and Optional Subsections
+
+> We know one analyst recreates report filters each Monday, but do not know how widespread it is. Keep the pitch tight. Personal-only views are a deliberate choice to avoid sharing complexity, not an externally imposed restriction.
+
+Expected characteristics: reflects frequency and recurring setup cost within one or two Problem sentences without inventing reach or numbers. Keeps Solution to a short paragraph; distinguishes limits in Constraints, accepted consequences in Tradeoffs, and unresolved evidence in Open Questions. Omits subsections with no consequential content instead of filling them for symmetry.
+
+## 13. Poor Output / Failure Mode
 
 Poor output:
 
-> Answer these twenty questions before I can help. The final pitch will have Problem, Appetite, Solution, Risks, Scopes, and Technical Plan. Scope 1 is database; scope 2 is API; scope 3 is UI. Sharing is required because it appeared in your initial notes. Once every edge case is specified, we can sketch.
+> Answer these twenty questions before I can help. The final pitch will have Problem, Appetite, Solution, Risks, Scopes, and Technical Plan. Scope 1 is database; scope 2 is API; scope 3 is UI. Each scope is delivered as soon as it deploys, even if users cannot complete the flow. Sharing is required because it appeared in your initial notes. Once every edge case is specified, we can sketch.
 
-Why it fails: burdens the user with a fixed questionnaire, overrides the compact output, creates horizontal scopes, treats suggestions as requirements, hides judgment, and postpones drawing until it can no longer contribute to shaping.
+Why it fails: burdens the user with a fixed questionnaire, overrides the compact output, creates horizontal scopes, confuses deployment with delivered value, treats suggestions as requirements, hides judgment, and postpones drawing until it can no longer contribute to shaping.

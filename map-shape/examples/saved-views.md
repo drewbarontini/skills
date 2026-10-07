@@ -21,39 +21,64 @@
 The reported support evidence below comes from the illustrative user input; it is not independently verified.
 
 ```markdown
-# Pitch: Personal Saved Views
+# Problem
 
-## Problem
+For recurring weekly reports, an analyst rebuilds the same filter configuration each Monday, repeating setup before they can use the report.
 
-Analysts rebuild the same report filters to return to a recurring report. The supplied support examples describe one analyst recreating a weekly configuration each Monday. The desired outcome is returning to that configuration without rebuilding it.
+# Solution
 
-Appetite: one short prototype pass. Evidence supports personal reuse; a need for sharing remains unproven.
+Let users name and save their current report filters, then find and apply a saved view when returning to the existing report. Make the active view visible.
 
-## Solution
+## Constraints
 
-Let a user name and save the current report filters, then find and apply that view when returning to the report. Reuse the existing report and filter concepts. Make the active view visible.
+- One short prototype pass; personal views only, with sharing, folders, descriptions, and defaults excluded.
 
-Keep the first pass personal. Exclude sharing, folders, descriptions, and default views. Defer renaming and deletion until the core flow has been tried.
+## Tradeoffs
 
-Applying a view whose fields have changed remains unresolved. Sketch that case and compare warning, partial application, and blocked application before choosing behavior.
+- Personal-only reuse leaves any cross-user reuse manual in exchange for avoiding sharing and permission complexity in the first release.
 
-## Scopes
+## Open Questions
 
-### Save and return to a personal view
-- Outcome: an analyst can save a configuration and return to it later.
-- Boundary: name, save, find, apply, and see the active view; no sharing or defaults.
-- Connections: saving and applying deliver value together and depend on the existing report/filter model.
-- Resolve next: sketch where saving and finding belong in the report, how the active view is represented, and what happens when a saved filter is invalid.
+- **View Recall:** Where should saving and finding views live, and how should the active view appear?
+- **View Recall:** What happens when a saved filter references a changed field? Compare warning, partial application, and blocked application in the sketch before choosing behavior.
 
-### Manage personal views — deferred
-- Outcome: remove or rename a view that is no longer useful.
-- Boundary: individual rename and delete; no bulk management or restoration.
-- Connections: depends on saved views existing; not required to test the core save-and-return value.
-- Resolve next: observe the prototype before deciding whether management belongs in the next pass.
+# Scopes
 
-Sketch the save-and-return journey first, including invalid filters. Enough is understood to sketch; readiness to prototype depends on bounding the invalid-filter behavior. The prototype can test interaction coherence but cannot establish demand for sharing.
+Release View Recall first. View Control remains deferred until use reveals management friction.
+
+## View Recall
+
+*Save and return to a view.*
+
+Analysts can save a filter configuration and reopen it later, avoiding repeated setup for recurring reports.
+
+### Boundaries
+
+- **Includes:** Naming, saving, finding, applying, and identifying the active view.
+- **Excludes:** Renaming and removing saved views.
+
+### Delivery
+
+- Configuration persistence may deploy behind a flag first. Enable the complete save-and-return flow before counting this scope as delivered.
+
+## View Control
+
+*Rename or remove saved views.*
+
+Analysts can rename a view or remove one they no longer need, keeping their saved configurations understandable and relevant.
+
+### Boundaries
+
+- **Includes:** Individual rename and delete.
+- **Excludes:** Bulk management and restoration.
+
+### Constraints
+
+- Requires View Recall to be released; deferred until its use reveals a management need.
 ```
+
+Enough is understood to sketch View Recall, including invalid filters. Readiness to prototype depends on bounding that behavior; the prototype does not establish demand for sharing.
 
 ## Continuing with a Sketch
 
-If a returned sketch automatically applies a saved view but still labels it active after the user edits its filters, trace the meaning of “active.” Ask whether the edited configuration remains the saved view or becomes an unsaved variation. Resolve that conceptual mismatch and update Solution and the first scope in the same pitch.
+If a returned sketch automatically applies a saved view but still labels it active after the user edits its filters, trace the meaning of “active.” Ask whether the edited configuration remains the saved view or becomes an unsaved variation. Resolve that conceptual mismatch and update Solution and View Recall in the same pitch.
