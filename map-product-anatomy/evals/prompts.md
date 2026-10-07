@@ -60,7 +60,13 @@ Expected characteristics: delivers compact text anatomy without requiring a conn
 
 Expected characteristics: preserves modal ownership and component identity despite its visual position, corrects the unsupported Success screen, and retains unsettled submit behavior as an Unknown. Distinguishes a rendering correction from a new product decision.
 
-## 11. Poor Output / Failure Mode
+## 11. Lightweight Places and State Views
+
+> Use underlined place names with affordances listed beneath them, muted explanatory notes, and arrows from the relevant actions. ProjectDetail has TaskList and AddTaskButton. Add opens NewTaskModal on ProjectDetail. Successful submission closes the modal and updates TaskList. Show the scopes in separate rows; a repeated ProjectDetail (task added) view should help explain the update.
+
+Expected characteristics: honors the text-based drawing style without requiring boxes; distinguishes place headings from Anatomica Screens; preserves NewTaskModal as a component and ProjectDetail (task added) as a view of the same Screen. Arrows originate at the relevant affordances, with action labels there or on the arrows. Annotations explain the list update rather than become controls. Scope rows retain shared identity rather than inventing separate screens or navigation. Unknown behavior remains unresolved.
+
+## 12. Poor Output / Failure Mode
 
 Poor output:
 

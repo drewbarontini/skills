@@ -3,7 +3,7 @@ name: map-product-anatomy
 description: Map a product surface, flow, or shaped feature into compact Anatomica, with an optional breadboard of screens, affordances, and action-labeled transitions. Use when product structure and flow need to become inspectable before visual design or implementation.
 metadata:
   author: drewbarontini
-  version: "0.2.0"
+  version: "0.2.1"
   systems: "claritorium, equilio"
   models: "clarity-codex, value-creation"
 ---
@@ -43,7 +43,7 @@ Read [references/anatomica.md](references/anatomica.md) for the notation and sou
 
 Read [references/breadboarding.md](references/breadboarding.md) when the user wants a breadboard or a structural drawing of the flow.
 
-1. **Translate the anatomy.** Show Screens as containers, relevant Components as labeled affordances, and supported Flows as arrows labeled with their Actions. Retain meaningful States at their owning screen or component. A modal stays a component, and a state transition need not lead to another screen.
+1. **Translate the anatomy.** Show places with underlined headings or labeled containers, relevant Components and affordances beneath their owning place, and supported Flows as arrows originating from the relevant affordance and labeled with their Actions. Use brief annotations for displayed information, conditions, and consequences. Retain meaningful States at their owning screen or component; a distinct view of the same place is not a new Screen. A modal stays a component, and a state transition need not lead to another screen.
 2. **Preserve identity and uncertainty.** Keep product and scope names aligned across pitch, text, and drawing. Show shared screens and cross-scope connections. Keep missing destinations or unsettled behavior visibly unresolved instead of drawing invented answers.
 3. **Use the chosen medium.** Render through the available drawing tool when requested, such as tldraw; the same method works as sketch guidance for FigJam, another canvas, or paper. Keep placement schematic and detail limited to understanding structure and flow. Do not require a connector for the text map or claim to have drawn when only guidance was produced.
 4. **Trace and reconcile.** Walk through the user journey in the breadboard. Check labels, containment, and arrow endpoints against the anatomy. Use supplied discoveries or decisions to revise the same anatomy and pitch, explaining consequential changes to the problem, approach, or scopes. Proposed alternatives remain marked as alternatives until chosen; drawing them is not evidence of demand.
