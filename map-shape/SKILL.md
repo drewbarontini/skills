@@ -1,73 +1,75 @@
 ---
 name: map-shape
-description: Turn a fuzzy product problem or opportunity into a coherent, valuable, simplified, and sequenced shape of work. Use when product work needs boundaries and vertical slices before implementation planning.
+description: Shape a fuzzy product problem into a coherent pitch through adaptive interviewing, scope reduction, and sketch or prototype feedback. Use when user-facing work needs a clear problem, rough solution, and bounded scopes before implementation planning.
 metadata:
   author: drewbarontini
-  version: "0.1.0"
+  version: "0.2.0"
   systems: "claritorium, equilio"
   models: "value-creation"
 ---
 
 # Map Shape
 
-Given a product problem or opportunity, use Shape Mapping to discover the work's relationships, isolate deliverable value, reduce scope, and establish an order of operations without prematurely specifying implementation.
+Given an initial understanding of a product problem, develop a bounded, coherent pitch that makes the next sketch or prototype useful. Use an adaptive interview to discover what matters, preserve unresolved questions, and refine the same pitch as new evidence appears.
 
 ## Boundaries
 
-Shape Mapping is for clarifying what should be built and how the value can be bounded. It is not a substitute for product discovery, detailed technical planning, task estimation, or code generation. Do not invent product requirements to make the shape look complete; retain Questions, Risks, and Unknowns.
+Shape the user experience before specifying implementation. Do not invent requirements, evidence, or settled decisions to complete the document. This skill clarifies existing understanding; it does not replace user research, feasibility testing, detailed technical planning, estimation, or code generation. If an answer needs contact with reality, identify the smallest useful sketch, prototype, or evidence-gathering action rather than prolonging the interview.
+
+## Interview and Synthesis
+
+1. **Orient from what is supplied.** Read the initial notes and any existing pitch, sketches, or prototype. Reflect the apparent problem, proposed direction, constraints, and most consequential uncertainty. Separate observations, assumptions, proposals, and decisions.
+2. **Ask the next useful question.** Ask one focused question at a time, or a small pair when inseparable, then wait for the answer. Choose the question whose answer could most change the problem, solution, or boundary. Do not repeat answered questions or run a fixed questionnaire. Probe concrete situations, desired outcomes, product fit, appetite, and gaps in the user's journey as needed.
+3. **Contribute judgment.** Offer provisional interpretations, smaller alternatives, and tradeoffs grounded in the supplied context. Explain why a choice matters. Challenge a proposed feature when the underlying problem or value is unclear; do not silently convert a suggestion into a requirement.
+4. **Synthesize as understanding changes.** Keep a living pitch rather than waiting for exhaustive certainty. Briefly reflect consequential decisions and remaining uncertainty. If the supplied context is already sufficient, draft directly and ask only questions that materially affect the shape.
+5. **Use sketches and prototypes inside the loop.** When a spatial or interactive question would benefit from drawing, name the area and what the sketch should resolve. When sketches or a prototype return, trace the user journey, compare it with the pitch, expose contradictions or missing transitions, and revise the same pitch. Do not restart the interview or treat a drawn choice as validated user evidence.
 
 ## Canonical Method
 
-Follow these five steps in order, revisiting earlier steps as new information appears:
+Use these five steps to develop the shape, revisiting earlier steps as answers and artifacts change it. They guide the reasoning; they do not require five separate interview rounds or five output sections.
 
 1. **Surface** — Create a flat list of everything. Tag each item as Action, Decision, Question, Risk, or Unknown. Nothing is in or out of scope yet.
 2. **Structure** — Build relationships in the list. Anchor root nodes, nest sub-items, and link dependencies. Discover relational groups rather than imposing an operational plan.
-3. **Slice** — Find vertical slices of value. Name each slice, define its boundary, and test whether it can stand alone as a usable flow—not merely a technical capability.
+3. **Slice** — Identify meaningful user-facing scopes and test the usable flow each contributes. A scope names an outcome or interaction, not just a screen or technical layer. Identify which scopes can stand alone and which deliver value together.
 4. **Simplify** — Reduce each slice to the smallest version that still delivers value. Remove, defer, or narrow scope explicitly.
-5. **Sequence** — Create the order of operations. Distinguish build units from value units and bundle slices when users only receive meaningful value from them together.
+5. **Sequence** — Explain the useful order for sketching or prototyping, distinguishing dependencies and build units from what must come together to deliver user value.
 
-Read [references/shape-mapping.md](references/shape-mapping.md) for the detailed tests and the optional Shape Prompt form.
+Read [references/shape-mapping.md](references/shape-mapping.md) when a detailed Shape Map, slice-independence test, or implementation-planning handoff is useful.
 
 ## Output
 
+The default output is a living pitch with exactly three main sections:
+
 ```markdown
-# Shape: [Name]
+# Pitch: [Name]
 
-## Context
-[Problem, opportunity, user value, and why it matters.]
+## Problem
+[Who encounters what problem, in which concrete situation, and the desired outcome.]
+[Evidence, consequential assumptions, and appetite or other constraints; mark unknowns.]
 
-## Surface
-- [A] Action
-- [D] Decision
-- [Q] Question
-- [R] Risk
-- [U] Unknown
+## Solution
+[Rough approach, core elements, fit with the existing product, and the user journey.]
+[Key decisions, exclusions, risks, and unresolved conceptual questions.]
 
-## Structure
-### [Root / Group] (depends on [...])
-- [...]
+## Scopes
+### [User-facing scope]
+- Outcome: [What the user can accomplish.]
+- Boundary: [Included, narrowed, and excluded behavior.]
+- Connections: [Dependencies, shared concepts, or scopes that deliver value together.]
+- Resolve next: [Question and the interview, sketch, prototype, or evidence needed to answer it; omit if none.]
 
-## Slices
-### [Slice Name]
-- Value: [...]
-- Boundary: In [...]; Out [...]
-- Dependencies: [...]
-- Independence test: [...]
-
-## Simplification
-- Keep: [...]
-- Reduce: [...]
-- Defer / remove: [...]
-
-## Sequence
-1. [Build unit or value bundle] — because [...]
-
-## Remaining Uncertainty
-- [...]
+[Useful order and why. State whether enough is understood to sketch or prototype, and what remains unresolved.]
 ```
 
-Produce a Shape Prompt only when the user needs a handoff into planning or execution. The Shape Map remains the primary output.
+Keep assumptions and questions in the section they affect rather than adding a fourth section. Omit empty fields; do not pad the pitch to imply certainty. Keep visual detail open unless it affects the concept or interaction. Provide the detailed Shape Map when explicitly requested or needed to expose relationships; produce a Shape Prompt only for a requested planning or execution handoff.
+
+## Readiness and Stopping
+
+- **Enough to sketch:** The problem and desired outcome are clear enough, a plausible direction is bounded, and the areas to draw and questions those drawings should resolve are named.
+- **Enough to prototype:** The core journey can be traced coherently, essential boundaries and relationships are explicit, and remaining uncertainty can be investigated safely within the proposed prototype. Call out assumptions that could overturn the concept or viability instead of declaring them resolved.
+
+Pause the interview at the useful next action. Distinguish uncertainty that needs resolving before proceeding from uncertainty best investigated through a sketch or prototype. Do not equate readiness with a complete specification, verified demand, or production readiness. Do not require sketches when a prototype is the better next move. If drawing tools such as tldraw are available and the user requests drawing, use the scopes and questions to guide the canvas; the skill must also work without a drawing connection.
 
 ## Quality Bar
 
-A strong shape preserves the five canonical steps, makes relationships and dependencies visible, defines end-to-end slices of recognizable value, subtracts meaningful scope, distinguishes build order from release value, retains uncertainty, and is concrete enough to guide product work without pretending implementation decisions are settled.
+A strong result asks consequential questions without exhausting the user, preserves the five shaping steps, produces a concise Problem / Solution / Scopes pitch, defines recognizable user value, subtracts meaningful scope, makes relationships and order visible, fits the existing product's concepts, retains uncertainty, and explains the next useful action. Returned sketches or prototypes should improve the same pitch rather than create a disconnected specification.

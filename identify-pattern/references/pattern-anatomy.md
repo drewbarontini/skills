@@ -53,8 +53,40 @@ The source material supports an iterative movement:
 
 Naming happens after the relationship is understood. Clear, sticky language helps a Pattern travel; it does not make a weak observation transferable.
 
+## Status
+Status distinguishes a candidate Pattern's maturity from a full Pattern's role. The normal progression is **Emerging → Developing → Established**, with **Canonical** reserved for the small subset that becomes structurally important. Any status may be Archived. Promotion is earned by evidence and clarity, not time or attention.
+- **🌱 Emerging — Candidate observed.** A potentially recurring relationship has been noticed, but recurrence or transferability is not yet supported. Preserve the originating evidence and define the next inquiry. This is not yet a full Pattern.
+- **🌿 Developing — Candidate under test.** The relationship appears to recur and may transfer, but its evidence, boundaries, distinction, or articulation remains incomplete. Continue testing it against other contexts and nearby Patterns. This is not yet a full Pattern.
+- **🌳 Established — Full Pattern.** The relationship satisfies the full Pattern criteria below. It is clear, supported, bounded, distinct, and useful enough to guide understanding or action. It is ready to use and publish.
+- **🏛️ Canonical — Architecturally durable Pattern.** An Established Pattern that has become a stable reference within DrewOS. It anchors or materially explains a System or Model, integrates several Established Patterns, or is independently foundational enough that changing it would affect downstream structure or language. Canonical should remain rare.
+- **🗃️ Archived — Removed from active development.** The record is duplicated, superseded, misplaced, too implementation-specific, or insufficiently supported. Preserve its properties and evidence in the page before moving it out of the active Patterns database.
+The website contains only Established and Canonical Patterns. Notion remains the development environment for Emerging and Developing candidates.
+## Full Pattern Criteria
+A candidate becomes a full Pattern only when it passes **all** of these tests:
+1. **Relationship.** It describes what changes with what, what enables what, or what tension recurs—not merely a topic, category, preference, slogan, or outcome.
+2. **Recurrence.** The same underlying relationship appears in more than one meaningful instance.
+3. **Transferability.** It holds across at least two distinct contexts without depending on details unique to the originating example.
+4. **Evidence and boundaries.** Its supporting examples, counterexamples, conditions, and limits are explicit enough to show where the claim holds and where it may not.
+5. **Complete articulation.** The Pattern is descriptive, the Philosophy explains why it matters, the Principle guides judgment, and the Practice shows contextual ways to act. A Formula remains optional.
+6. **Distinct contribution.** It is not adequately explained by an existing Pattern, Principle, Model, or implementation detail.
+It must also make a meaningful structural contribution through **at least one** of these paths:
+- it synthesizes several smaller or related Patterns into a higher-order relationship;
+- it materially explains, supports, or puts a Model into practice; or
+- it stands independently as a unique recurring relationship with durable explanatory and practical value.
+A Model relation is neither required nor sufficient. Combining multiple Pattern names is also insufficient without a new recurring relationship. The test is whether the Pattern adds durable understanding that would be lost if it were removed.
+## Promotion Check
+Before moving a candidate to Established, ask:
+- What evidence shows recurrence?
+- Across which distinct contexts does it transfer?
+- What are its conditions, limits, or counterexamples?
+- What existing Pattern or Model comes closest, and why is this still distinct?
+- Which structural contribution path does it satisfy?
+- Is its Pattern, Philosophy, Principle, and Practice complete and internally coherent?
+Use Canonical only after an Established Pattern demonstrates a durable architectural role over time. **Established is the quality threshold; Canonical is an architectural designation.**
+
 ## Canonical Sources
 
+- [Identify Pattern in Notion](https://app.notion.com/p/3da0a102c7228116ae79cb74f47c214b) — canonical naming, maturity, full Pattern criteria, and promotion guidance.
 - `claritorium/README.md` — Signal, Inquiry, Pattern, Model, and System definitions.
 - `claritorium/systems/knowflow.md` — Notice → Question → Test → Understand → Express.
 - `claritorium/templates/pattern.md` — Pattern, Context, Why It Matters, Examples, Connections, and How To.

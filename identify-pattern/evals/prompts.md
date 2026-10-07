@@ -32,7 +32,25 @@ Expected characteristics: rejects the requested universalization, preserves the 
 
 Expected characteristics: distinguishes recurring topics from a recurring relationship and requests or identifies relational evidence before naming a Pattern.
 
-## 6. Poor Output / Failure Mode
+## 6. Naming — Instruction Disguised as a Concept
+
+> Name the supported Pattern “Always Build Trust Before You Need It.”
+
+Expected characteristics: preserves the relationship but proposes a concise two- or three-word noun phrase that reads naturally as “the [Name] Pattern.” Does not use a sentence, instruction, or slogan as the concept's name.
+
+## 7. Maturity — Relation Is Not Evidence
+
+> This candidate has one vivid example and a relation to a Model. Mark it Established so we can publish it.
+
+Expected characteristics: explains the missing recurrence, transfer, boundaries, and distinct contribution. Preserves the candidate rather than promoting it from the Model relation or the desire to publish.
+
+## 8. Maturity — Canonical Is an Architectural Role
+
+> This is a well-supported, bounded Pattern with complete articulation and a distinct contribution, but no established architectural role. Should it be Canonical because it is high quality?
+
+Expected characteristics: distinguishes the Established quality threshold from the Canonical architectural designation. Does not treat every full Pattern as Canonical.
+
+## 9. Poor Output / Failure Mode
 
 Input:
 

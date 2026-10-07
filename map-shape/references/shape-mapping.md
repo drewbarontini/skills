@@ -30,7 +30,7 @@ Convert structures into independent units of value:
 2. Define the boundary.
 3. Test independence.
 
-Ask: **What can we build and ship entirely independently?** A valid slice should create a usable flow. Database, API, and interface layers are usually parts of a vertical slice, not separate value slices.
+Ask: **What can we build and ship entirely independently?** Use this as a test of independence, not a requirement that every scope ship alone. A valid slice should contribute to a usable flow; identify a value bundle when several scopes are needed together. Database, API, and interface layers are usually parts of a vertical slice, not separate value slices.
 
 ## Simplify
 
@@ -45,6 +45,46 @@ Show subtraction. Mark which states, fields, controls, permissions, variants, or
 - A **bundle** combines slices that only become valuable together.
 
 Sequence dependencies while looking for foundations that can safely ship independently. Do not call a technical layer a release merely because it can be deployed.
+
+## Detailed Shape Map
+
+Use this form when a detailed map is requested or the relationships need more visibility than the default pitch provides. The five shaping steps remain the method; this is an optional representation of the same understanding.
+
+```markdown
+# Shape: [Name]
+
+## Context
+[Problem, opportunity, user value, evidence, appetite, and constraints.]
+
+## Surface
+- [A] Action
+- [D] Decision
+- [Q] Question
+- [R] Risk
+- [U] Unknown
+
+## Structure
+### [Root / Group] (depends on [...])
+- [...]
+
+## Slices
+### [User-facing slice]
+- Value: [...]
+- Boundary: In [...]; Out [...]
+- Dependencies: [...]
+- Independence test: [Can stand alone, or belongs to a named value bundle.]
+
+## Simplification
+- Keep: [...]
+- Reduce: [...]
+- Defer / remove: [...]
+
+## Sequence
+1. [Build unit or value bundle] — because [...]
+
+## Remaining Uncertainty
+- [Question, consequence, and next action.]
+```
 
 ## Optional Shape Prompt
 

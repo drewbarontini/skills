@@ -3,7 +3,7 @@ name: identify-pattern
 description: Turn observations, repeated experiences, tensions, stories, or examples into a transferable Pattern. Use when recurrence may reveal a relationship worth preserving; do not use to generalize a single unsupported anecdote or merely summarize a topic.
 metadata:
   author: drewbarontini
-  version: "0.1.0"
+  version: "0.2.0"
   systems: "claritorium, knowflow"
   models: "inquiry-formation, knowledge-integration"
 ---
@@ -27,10 +27,10 @@ Do not use this skill merely to summarize, categorize topics, name a one-time ev
 3. **Separate instance from relationship.** Remove details that only belong to the originating case while retaining the conditions that make the relationship true.
 4. **Test transferability.** Check the candidate against at least two contexts when evidence permits. Look for a counterexample, boundary, or condition that would make the claim too broad.
 5. **Distill the meaning.** Write the descriptive Pattern first. Then derive its Philosophy, Principle, and contextual Practices without collapsing these layers together.
-6. **Name it.** Choose a concise, memorable name that signals the relationship. Prefer clarity and useful rhythm over novelty, branding, alliteration, or an acronym.
+6. **Name it.** Use a concise two- or three-word noun phrase that names the Pattern as a reusable concept. Prefer two words when they preserve the meaning; use three when the distinction requires it. Avoid sentences, claims, instructions, questions, and slogans. The title names the concept; the Pattern statement describes the relationship. Read the title aloud in the construction **“the [Name] Pattern.”** If that phrase does not sound natural, the name is not finished. Prefer clarity and useful rhythm over novelty, branding, alliteration, or an acronym.
 7. **Compress only if helpful.** Add a Formula only when it makes the relationship easier to understand. Do not add mathematical decoration to a qualitative idea.
 
-Read [references/pattern-anatomy.md](references/pattern-anatomy.md) when the layers are difficult to separate or the evidence is weak.
+Read [references/pattern-anatomy.md](references/pattern-anatomy.md) when the layers are difficult to separate, evidence is weak, or Pattern maturity or promotion is being assessed.
 
 ## Output
 
@@ -70,6 +70,10 @@ If the evidence is insufficient, output:
 - **What is missing** — recurrence, transfer evidence, or boundary conditions.
 - **Next Inquiry** — a question that could test the candidate.
 
+## Maturity and Promotion
+
+Emerging and Developing are candidates; Established is the full Pattern threshold. Canonical is a rare architectural designation for an Established Pattern, not a higher quality score. Promotion requires recurrence, transferability, evidence and boundaries, complete articulation, and a distinct contribution, plus a meaningful structural contribution through synthesis, support for a Model, or independently durable understanding. A Model relation alone is neither required nor sufficient. Use the detailed criteria and promotion check in the reference before assessing readiness to publish; do not infer maturity from age or accumulated attention.
+
 ## Quality Bar
 
 A strong result:
@@ -78,5 +82,5 @@ A strong result:
 - names an actual relationship rather than a topic, category, slogan, or isolated outcome;
 - transfers across contexts and acknowledges credible limits;
 - keeps Pattern descriptive, Philosophy interpretive, Principle prescriptive, and Practice contextual;
-- has a memorable but non-gimmicky name; and
+- has a clear, memorable, non-gimmicky two- or three-word noun-phrase name that reads naturally as **“the [Name] Pattern”**; and
 - uses a Formula only when the compression preserves meaning.

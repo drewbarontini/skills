@@ -31,7 +31,7 @@ The repository follows the open [Agent Skills specification](https://agentskills
 | [`frame-inquiry`](frame-inquiry/) | Frame or reframe an Inquiry's Current Inquiry, Working Theory, and Next Move. |
 | [`design-experiment`](design-experiment/) | Design a bounded test of a Working Theory with a review handoff back to the Inquiry. |
 | [`compare-perspectives`](compare-perspectives/) | Use genuinely distinct perspectives to expose tension and form better integrated judgment. |
-| [`map-shape`](map-shape/) | Turn a fuzzy product opportunity into a structured, simplified, and sequenced shape of value. |
+| [`map-shape`](map-shape/) | Turn an initial product understanding into a coherent Problem / Solution / Scopes pitch through adaptive interviewing and sketch or prototype feedback. |
 | [`map-product-anatomy`](map-product-anatomy/) | Turn a software product surface or flow into a compact, versionable anatomy of Screens, Components, Actions, States, and Flows. |
 | [`review-coherence`](review-coherence/) | Find meaningful product drift, contradictions, and model gaps, then recommend focused corrections. |
 | [`classify-work`](classify-work/) | Give product work clear coordinates for Type, Impact, Landscape, form, and routing. |
