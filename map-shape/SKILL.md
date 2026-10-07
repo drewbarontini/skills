@@ -3,14 +3,14 @@ name: map-shape
 description: Shape a fuzzy product problem into a concise Problem / Solution / Scopes pitch through adaptive interviewing and sketch or prototype feedback. Use when work needs a clear problem, rough solution, and named scopes of independently releasable user value before implementation planning.
 metadata:
   author: drewbarontini
-  version: "0.3.0"
+  version: "0.3.1"
   systems: "claritorium, equilio"
   models: "value-creation"
 ---
 
 # Map Shape
 
-Given an initial understanding of a product problem, develop a bounded, coherent pitch that makes the next sketch or prototype useful. Use an adaptive interview to discover what matters, preserve unresolved questions, and refine the same pitch as new evidence appears.
+Given an initial understanding of a product problem, develop a bounded, coherent pitch that can be shared for discussion and used as a working list for sketching the user experience scope by scope. Use an adaptive interview to discover what matters, preserve unresolved questions, and refine the same pitch as sketches, prototypes, or other evidence change the understanding.
 
 ## Boundaries
 
@@ -69,7 +69,7 @@ The default output is a living pitch with exactly three main sections. Use H1 fo
 
 *[Action-oriented shorthand.]*
 
-[One or two sentences describing what users can accomplish after this scope is released and the value it provides.]
+[One or two sentences describing the usable value and core interaction or flow to work through in sketches.]
 
 ### Boundaries
 
@@ -87,6 +87,8 @@ The default output is a living pitch with exactly three main sections. Use H1 fo
 
 Keep Problem to one or two sentences and Solution to one short paragraph before any optional subsections. Constraints state limits; Tradeoffs explain accepted consequences; Open Questions preserve uncertainty. Do not add a subsection merely for symmetry or repeat feature-wide content within each scope.
 
+The pitch should make sense to someone who did not attend the interview. Its scopes are the working sketch list: each name, shorthand, description, boundaries, and associated Open Questions should give enough context to explore the core user experience in the user's chosen medium, including a digital canvas or paper. Include supported entry points and key interactions where they matter; leave unresolved layout and behavior open for the sketch to investigate. Do not add a duplicate sketch plan or a fourth main section.
+
 For each scope, use a memorable, compressed name without cryptic branding; let the shorthand explain the capability immediately. Keep names stable across the pitch, sketches, and milestones. Description and Boundaries are standard; scope Constraints and Delivery are optional. Omit unsupported or empty fields instead of filling them with invented decisions. Do not restore the old Outcome / Connections / Resolve next checklist. Put consequential assumptions and questions under Solution, and state the next action or readiness briefly with the pitch rather than adding a fourth main section.
 
 Keep visual detail open unless it affects the concept or interaction. Provide the detailed Shape Map when explicitly requested or needed to expose relationships; apply the same user-value release test to its slices. Produce a Shape Prompt only for a requested planning or execution handoff.
@@ -96,7 +98,7 @@ Keep visual detail open unless it affects the concept or interaction. Provide th
 - **Enough to sketch:** The problem and desired outcome are clear enough, a plausible direction is bounded, and the areas to draw and questions those drawings should resolve are named.
 - **Enough to prototype:** The core journey can be traced coherently, essential boundaries and relationships are explicit, and remaining uncertainty can be investigated safely within the proposed prototype. Call out assumptions that could overturn the concept or viability instead of declaring them resolved.
 
-Pause the interview at the useful next action. Distinguish uncertainty that needs resolving before proceeding from uncertainty best investigated through a sketch or prototype. Do not equate readiness with a complete specification, verified demand, or production readiness. Do not require sketches when a prototype is the better next move. If drawing tools such as tldraw are available and the user requests drawing, use the scopes and questions to guide the canvas; the skill must also work without a drawing connection.
+Pause the interview at the useful next action. Distinguish uncertainty that needs resolving before proceeding from uncertainty best investigated through a sketch or prototype. Do not equate readiness with a complete specification, verified demand, or production readiness. Do not require sketches when a prototype is the better next move. Honor the user's sketching medium; no particular drawing tool or connection is required. If drawing tools are available and the user requests drawing, use the scopes and questions to guide the canvas. When sketches change the problem, approach, or boundaries, update the same pitch and revise the scopes where their value changes; do not freeze the document at the handoff.
 
 ## Quality Bar
 

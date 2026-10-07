@@ -72,7 +72,13 @@ Expected characteristics: gives each scope a memorable, Title Case, two- or thre
 
 Expected characteristics: reflects frequency and recurring setup cost within one or two Problem sentences without inventing reach or numbers. Keeps Solution to a short paragraph; distinguishes limits in Constraints, accepted consequences in Tradeoffs, and unresolved evidence in Open Questions. Omits subsections with no consequential content instead of filling them for symmetry.
 
-## 13. Poor Output / Failure Mode
+## 13. Shareable Pitch and Portable Sketch List
+
+> I want to shop this pitch around, then take each scope onto paper or into my drawing app and work out the experience. I will bring sketches back if they change the direction.
+
+Expected characteristics: produces a pitch understandable without the interview transcript, with scopes that identify usable value, the supported core interactions to sketch, boundaries, and scope-associated Open Questions. Keeps the tight three-section format, requires no drawing connection, and treats the scopes themselves as the working list rather than adding a duplicate sketch plan. Returned sketches can revise the problem, approach, and scopes in the same pitch without being mistaken for validated demand.
+
+## 14. Poor Output / Failure Mode
 
 Poor output:
 

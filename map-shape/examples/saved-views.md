@@ -50,7 +50,7 @@ Release View Recall first. View Control remains deferred until use reveals manag
 
 *Save and return to a view.*
 
-Analysts can save a filter configuration and reopen it later, avoiding repeated setup for recurring reports.
+Analysts can save a filter configuration and reopen it later, avoiding repeated setup for recurring reports. Work through saving from the existing report, selecting a saved view on return, and recognizing the active view in the sketches.
 
 ### Boundaries
 
@@ -65,7 +65,7 @@ Analysts can save a filter configuration and reopen it later, avoiding repeated 
 
 *Rename or remove saved views.*
 
-Analysts can rename a view or remove one they no longer need, keeping their saved configurations understandable and relevant.
+Analysts can rename a view or remove one they no longer need, keeping their saved configurations understandable and relevant. Work through finding a saved view and choosing rename or remove without leaving the management path ambiguous.
 
 ### Boundaries
 
