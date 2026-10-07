@@ -3,7 +3,7 @@ name: map-shape
 description: Shape a fuzzy product problem into a concise Problem / Solution / Scopes pitch through adaptive interviewing and sketch or prototype feedback. Use when work needs a clear problem, rough solution, and named scopes of independently releasable user value before implementation planning.
 metadata:
   author: drewbarontini
-  version: "0.3.1"
+  version: "0.3.2"
   systems: "claritorium, equilio"
   models: "value-creation"
 ---
@@ -22,7 +22,7 @@ Shape the user experience before specifying implementation. Do not invent requir
 2. **Ask the next useful question.** Ask one focused question at a time, or a small pair when inseparable, then wait for the answer. Choose the question whose answer could most change the problem, solution, or boundary. Do not repeat answered questions or run a fixed questionnaire. Probe concrete situations, desired outcomes, problem size (reach, frequency, or consequence), product fit, appetite, and gaps in the user's journey as needed. Do not invent counts or quantify what the evidence cannot support.
 3. **Contribute judgment.** Offer provisional interpretations, smaller alternatives, and tradeoffs grounded in the supplied context. Explain why a choice matters. Challenge a proposed feature when the underlying problem or value is unclear; do not silently convert a suggestion into a requirement.
 4. **Synthesize as understanding changes.** Keep a living pitch rather than waiting for exhaustive certainty. Briefly reflect consequential decisions and remaining uncertainty. If the supplied context is already sufficient, draft directly and ask only questions that materially affect the shape.
-5. **Use sketches and prototypes inside the loop.** When a spatial or interactive question would benefit from drawing, name the area and what the sketch should resolve. When sketches or a prototype return, trace the user journey, compare it with the pitch, expose contradictions or missing transitions, and revise the same pitch. Do not restart the interview or treat a drawn choice as validated user evidence.
+5. **Use sketches and prototypes inside the loop.** When a spatial or interactive question would benefit from drawing, name the area and what the sketch should resolve. When scopes are defined enough and the user wants a structural flow drawing, use Map Product Anatomy when available: represent supported screens, components, actions, states, and flows in Anatomica, then breadboard that anatomy in the chosen medium. Otherwise describe the optional handoff without making another skill a prerequisite. Preserve scope names, boundaries, and Open Questions across the artifacts. When sketches or a prototype return, trace the user journey, compare it with the pitch, expose contradictions or missing transitions, and revise the same pitch and related anatomy where understanding changes. Do not restart the interview or treat a drawn choice as validated user evidence. Anatomica and breadboarding are optional; direct sketching or prototyping remains a valid next move.
 
 ## Canonical Method
 

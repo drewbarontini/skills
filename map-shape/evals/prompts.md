@@ -78,7 +78,13 @@ Expected characteristics: reflects frequency and recurring setup cost within one
 
 Expected characteristics: produces a pitch understandable without the interview transcript, with scopes that identify usable value, the supported core interactions to sketch, boundaries, and scope-associated Open Questions. Keeps the tight three-section format, requires no drawing connection, and treats the scopes themselves as the working list rather than adding a duplicate sketch plan. Returned sketches can revise the problem, approach, and scopes in the same pitch without being mistaken for validated demand.
 
-## 14. Poor Output / Failure Mode
+## 14. Optional Anatomica and Breadboard Handoff
+
+> Our scopes are defined enough. Before sketching detail, map their screens and interactions in Anatomica, then breadboard the flow in our drawing tool. Bring discoveries back into this pitch.
+
+Expected characteristics: hands off the existing scopes, boundaries, and Open Questions to Map Product Anatomy, preserving names and shared context. Keeps anatomy and breadboard as companion artifacts rather than adding pitch sections. Uses discovered decisions to revise the same pitch and related anatomy. Does not force this sequence for a later user who chooses a direct prototype instead.
+
+## 15. Poor Output / Failure Mode
 
 Poor output:
 

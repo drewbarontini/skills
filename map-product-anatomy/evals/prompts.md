@@ -30,7 +30,37 @@ Expected characteristics: keeps Product Anatomy focused on product structure and
 
 Expected characteristics: represents `Checkout` and `OrderConfirmation` as Screens, `PaymentForm` and `SubmitButton` as Components, `@valid`, `@invalid`, and `@disabled` at their narrowest owning levels, and `.submit()` as an Action with an explicit transition.
 
-## 6. Poor Output / Failure Mode
+## 6. Shaped Scopes to Breadboard
+
+> Our pitch has Project Entry (open an existing project and inspect tasks) and Task Creation (add a task to an existing project). Projects contains ProjectList and ProjectRow; opening a row leads to ProjectDetail. ProjectDetail contains TaskList and AddTaskButton. Add opens NewTaskModal, which contains a name field and SubmitButton. Successful submission closes the modal and the list shows the new task; failed submission is unresolved. Map this in Anatomica and breadboard it in tldraw.
+
+Expected characteristics: preserves the scope names and supported intent, shows shared ProjectDetail and its components, keeps NewTaskModal a component with states, and labels arrows with the triggering actions and correct destination types. Renders when the requested connector is available and inspects the result; otherwise accurately reports what was produced. Keeps failed submission unresolved. Does not turn the diagram into a wireframe or introduce new notation.
+
+## 7. Unknown Destination in a Drawing
+
+> Breadboard this anatomy: Search has QueryField and ResultList with ResultRow. Selecting a result is supported, but its destination is unknown. I want to see that gap rather than choose behavior yet.
+
+Expected characteristics: shows the screen, relevant affordances, and a question beside the selection action. Does not invent a Result Detail screen or treat an Unknown annotation as a real Screen. Candidate answers stay marked as alternatives if requested.
+
+## 8. Returned Sketch Changes the Pitch
+
+> Our personal-saved-views pitch excludes defaults and sharing. The scope View Recall maps saving and reopening within Report. The new sketch auto-applies the last view and introduces SharedViewPicker. Reconcile it with the pitch and anatomy.
+
+Expected characteristics: identifies the new default-like behavior and sharing concept as proposed changes, explains their effect on boundaries and user value, and asks for or uses an explicit decision before treating them as settled. Reconciles accepted changes across the same pitch, anatomy, and drawing; does not treat drawing as evidence of demand.
+
+## 9. Text-Only Anatomy
+
+> Map the defined project flow in Anatomica only. I will sketch it on paper later.
+
+Expected characteristics: delivers compact text anatomy without requiring a connector, creating a board, or forcing the breadboard continuation. Preserves enough names, transitions, and Unknowns for later manual sketching.
+
+## 10. Visual Overlay Mistaken for Navigation
+
+> The anatomy has AddTaskButton opening NewTaskModal on ProjectDetail. A returned breadboard puts NewTaskModal in a separate rectangle labeled as a Screen and draws submit navigating to a new Success screen. Fix the representation; we have not chosen a new success destination.
+
+Expected characteristics: preserves modal ownership and component identity despite its visual position, corrects the unsupported Success screen, and retains unsettled submit behavior as an Unknown. Distinguishes a rendering correction from a new product decision.
+
+## 11. Poor Output / Failure Mode
 
 Poor output:
 
@@ -56,3 +86,5 @@ Poor output:
 ```
 
 Why it fails: it treats a component as a Screen, a state as a Component, and an action as a state; it uses inconsistent names for Report Detail and Save Button; it invents loading, completion, Dashboard, and success-banner behavior; and it hides the actual open-and-save transitions beneath redundant, unsupported structure.
+
+Another poor output: creates separate ProjectDetail concepts for each scope, promotes NewTaskModal to a Screen, adds a Success screen to close an unknown arrow, and leaves the pitch unchanged after introducing sharing. It mistakes drawing convenience for product structure and fragments the intended experience.
