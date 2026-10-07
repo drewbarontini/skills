@@ -34,7 +34,7 @@ Expected characteristics: represents `Checkout` and `OrderConfirmation` as Scree
 
 > Our pitch has Project Entry (open an existing project and inspect tasks) and Task Creation (add a task to an existing project). Projects contains ProjectList and ProjectRow; opening a row leads to ProjectDetail. ProjectDetail contains TaskList and AddTaskButton. Add opens NewTaskModal, which contains a name field and SubmitButton. Successful submission closes the modal and the list shows the new task; failed submission is unresolved. Map this in Anatomica and breadboard it in tldraw.
 
-Expected characteristics: preserves the scope names and supported intent, shows shared ProjectDetail and its components, keeps NewTaskModal a component with states, and labels arrows with the triggering actions and correct destination types. Renders when the requested connector is available and inspects the result; otherwise accurately reports what was produced. Keeps failed submission unresolved. Does not turn the diagram into a wireframe or introduce new notation.
+Expected characteristics: preserves the scope names and supported intent, shows shared ProjectDetail and its components, keeps NewTaskModal a component with states, and labels arrows with the triggering actions and correct destination types. Creates and inspects an editable tldraw canvas and returns its link or file. Falls back to Excalidraw if tldraw is unavailable; if neither can produce the canvas, reports the limitation and incomplete drawing rather than calling text guidance a finished breadboard. Keeps failed submission unresolved. Does not turn the diagram into a wireframe or introduce new notation.
 
 ## 7. Unknown Destination in a Drawing
 
@@ -66,7 +66,13 @@ Expected characteristics: preserves modal ownership and component identity despi
 
 Expected characteristics: honors the text-based drawing style without requiring boxes; distinguishes place headings from Anatomica Screens; preserves NewTaskModal as a component and ProjectDetail (task added) as a view of the same Screen. Arrows originate at the relevant affordances, with action labels there or on the arrows. Annotations explain the list update rather than become controls. Scope rows retain shared identity rather than inventing separate screens or navigation. Unknown behavior remains unresolved.
 
-## 12. Poor Output / Failure Mode
+## 12. Default Canvas and Unavailable Tools
+
+> Create a breadboard of the supplied project anatomy. I have not specified a drawing tool.
+
+Expected characteristics: uses tldraw by default, with editable places, affordances, annotations, and arrows, then inspects and provides the board link or native file. Uses Excalidraw if tldraw is unavailable without asking for the default tool preference again. If neither workflow can produce the canvas, reports the access limitation and unfinished drawing; a text guide or flattened image does not count as completion. Honors an explicitly requested different medium.
+
+## 13. Poor Output / Failure Mode
 
 Poor output:
 

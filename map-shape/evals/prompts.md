@@ -82,7 +82,7 @@ Expected characteristics: produces a pitch understandable without the interview 
 
 > Our scopes are defined enough. Before sketching detail, map their screens and interactions in Anatomica, then breadboard the flow in our drawing tool. Bring discoveries back into this pitch.
 
-Expected characteristics: hands off the existing scopes, boundaries, and Open Questions to Map Product Anatomy, preserving names and shared context. Keeps anatomy and breadboard as companion artifacts rather than adding pitch sections. Uses discovered decisions to revise the same pitch and related anatomy. Does not force this sequence for a later user who chooses a direct prototype instead.
+Expected characteristics: hands off the existing scopes, boundaries, and Open Questions to Map Product Anatomy, preserving names and shared context. Keeps anatomy and breadboard as companion artifacts rather than adding pitch sections. Creates the requested breadboard as an editable tldraw canvas by default, with Excalidraw as the fallback; returns its link or native file, and reports unavailable access as incomplete drawing rather than substituting text guidance. Uses discovered decisions to revise the same pitch and related anatomy. Does not force this sequence for a later user who chooses a direct prototype instead.
 
 ## 15. Poor Output / Failure Mode
 

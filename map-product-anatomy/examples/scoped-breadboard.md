@@ -40,7 +40,7 @@ Projects contains ProjectList and ProjectRow. Opening a row leads to ProjectDeta
 
 ## Breadboard Guide
 
-This is a medium-neutral drawing guide, not a rendered board.
+These are construction notes for the editable canvas, not a completed breadboard. For the supplied request, create this structure in tldraw by default, using Excalidraw if tldraw is unavailable.
 
 1. Underline Projects and ProjectDetail as place headings, listing their relevant components and affordances beneath each. Labeled containers are also valid. Keep ProjectDetail shared across scopes, or identify repeated scope-row views as the same Screen.
 2. Show NewTaskModal as a component of ProjectDetail, with TaskNameField and SubmitButton beneath or inside it. It may sit beside the screen to make connections legible, with its ownership labeled; an underlined heading does not make it a Screen.
@@ -48,7 +48,7 @@ This is a medium-neutral drawing guide, not a rendered board.
 4. Place “Failed submission?” beside SubmitButton. Keep the unresolved branch visible without creating an Error or Success screen.
 5. Label the scope associations, using rows or panels if helpful. Use muted notes for displayed information and consequences, such as “TaskList shows the new task.” If a separate ProjectDetail (task added) view clarifies this update, mark it as a state view of the same Screen. Use spacing to clarify connections rather than decide the final interface layout.
 
-With a requested and available drawing tool, render this structure and inspect the resulting labels, ownership, arrows, and Unknown annotation. If the user chooses paper, the guide is sufficient.
+Create the editable canvas, inspect the resulting labels, ownership, arrows, and Unknown annotation, and return its link or native file. If neither tldraw nor Excalidraw is accessible, identify the limitation and leave the drawing incomplete. These notes suffice only if the user explicitly asks for a drawing guide instead.
 
 ## Revision from a Returned Sketch
 

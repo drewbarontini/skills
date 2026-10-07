@@ -28,11 +28,13 @@ An arrow may navigate to a Screen, open or focus a Component, chain an Action, o
 
 If an Action has no supported destination, show the affordance and place a question beside it. Do not invent a success screen, error state, or route. Candidate answers may be drawn when exploration is requested, with each alternative explicitly identified as provisional.
 
-## Draw in the Requested Medium
+## Create an Editable Canvas
 
-With an available drawing connector such as tldraw, use its current tools and documentation to render the breadboard. Inspect the target before updating an existing board and preserve unrelated content. Reuse the mapped area where possible so revisions stay recognizable.
+A request to create a breadboard means producing an actual editable drawing. Prefer tldraw without asking for a tool choice each time. Use Excalidraw when tldraw is unavailable; honor another medium if the user explicitly chooses it. This requirement applies to the breadboard continuation, not to text-only anatomy or the pitch.
 
-With paper or an unavailable connector, provide a compact drawing guide based on the same places, affordances, action labels, and questions. State what was actually produced. Tool choice does not change the method or become a prerequisite for shaping.
+Use the available connector or a supported native-file workflow, following its current tools and documentation. Create editable places, affordances, annotations, and arrows rather than a flattened image. Inspect the target before updating an existing board and preserve unrelated content. Reuse the mapped area where possible so revisions stay recognizable. Return the board link or native file so the user can continue sketching.
+
+If tldraw cannot produce the canvas, try the available Excalidraw workflow. If neither is accessible, complete the supported text anatomy and identify the access limitation and unfinished drawing. A drawing guide can explain the pending work, but is not a completed breadboard. An explicitly requested paper guide is a valid exception.
 
 When rendering programmatically, inspect the resulting drawing using the tool's available view or readback. Check readable labels, component ownership, arrow attachment to the intended affordance and destination, and visible uncertainty. Do not treat successful shape creation alone as proof that the diagram communicates the flow.
 
