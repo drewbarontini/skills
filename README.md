@@ -19,7 +19,7 @@ A Skill belongs here only when an agent can recognize its trigger, perform one p
 
 ## Provenance
 
-Claritorium and Equilio are the canonical sources. Individual Skills declare relevant Systems and Models in `SKILL.md` metadata; provenance is many-to-many and does not determine the repository structure. Supporting references summarize only the context needed to perform the job and link back to canonical material where useful.
+Claritorium and Equilio are the canonical sources. Individual Skills record their canonical Toolkit method or relevant Systems and Models in `SKILL.md` metadata; provenance is many-to-many and does not determine the repository structure. Supporting references summarize only the context needed to perform the job and link back to canonical material where useful.
 
 The repository follows the open [Agent Skills specification](https://agentskills.io/specification). Metadata values are strings for compatibility with the specification, including comma-separated provenance when a Skill draws from multiple sources.
 
@@ -31,12 +31,16 @@ The repository follows the open [Agent Skills specification](https://agentskills
 | [`frame-inquiry`](frame-inquiry/) | Frame or reframe an Inquiry's Current Inquiry, Working Theory, and Next Move. |
 | [`design-experiment`](design-experiment/) | Design a bounded test of a Working Theory with a review handoff back to the Inquiry. |
 | [`compare-perspectives`](compare-perspectives/) | Use genuinely distinct perspectives to expose tension and form better integrated judgment. |
+| [`shape-writing-spine`](shape-writing-spine/) | Interview an author into a Core Idea and connected claims with explicit transitions before drafting a Work. |
+| [`analogy-builder`](analogy-builder/) | Build analogies that preserve an idea's structure, expose their limits, and sharpen its formulation where useful. |
 | [`map-shape`](map-shape/) | Turn an initial product understanding into a concise Problem / Solution / Scopes pitch with named scopes of independently releasable user value. |
 | [`map-product-anatomy`](map-product-anatomy/) | Map a product surface, flow, or shaped feature into Anatomica, optionally breadboard its screens and interactions, and reconcile discoveries with the source pitch. |
 | [`review-coherence`](review-coherence/) | Find meaningful product drift, contradictions, and model gaps, then recommend focused corrections. |
 | [`classify-work`](classify-work/) | Give product work clear coordinates for Type, Impact, Landscape, form, and routing. |
 
 Each Skill contains its entrypoint, a representative example, and lightweight eval prompts and rubric. Some Skills add a focused reference when the method or taxonomy benefits from progressive disclosure.
+
+Shape Writing Spine and Analogy Builder are packaged from Candidate methods in Notion's Toolkit. Their inclusion here does not change their Toolkit status or imply independent behavioral validation.
 
 ## Install and Use
 
