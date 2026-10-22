@@ -34,16 +34,18 @@ A meeting can create a feeling of alignment without preserving the reasoning nee
 
 ### 1. Remembering a choice does not preserve the reasoning behind it.
 
-When the tradeoff disappears from memory, a team can repeat an earlier debate without understanding what has changed.
+- The decision remains visible, but the tradeoff that justified it may disappear.
+- Record the reasoning, not just the outcome.
+- → If the choice alone is insufficient, its rationale needs to travel with it.
 
-**Transition →** If the choice alone cannot explain the decision, its rationale must travel with it.
+### 2. A useful decision record preserves the rationale and conditions for reconsideration.
 
-### 2. A useful decision record preserves both the rationale and the conditions for reconsideration.
-
-These give the team a way to distinguish a repeated suggestion from evidence that justifies revisiting the choice.
-
-**Transition →** Because those conditions can change, the record must support ongoing judgment rather than freeze the original answer.
+- These details show why alternatives were rejected and when to revisit the choice.
+- Context makes future reevaluation possible without starting from scratch.
+- → When conditions change, the record must support ongoing judgment rather than freeze the original answer.
 
 ### 3. Teams should use decision records as shared references that evolve with evidence.
 
-Preserve enough reasoning to sustain understanding without documenting every conversation or treating every decision as permanent.
+- Update the record when new evidence changes the original assumptions.
+- Preserve collective understanding without recording every conversation.
+- → Close by showing how shared reasoning lets teams move forward without treating decisions as permanent.

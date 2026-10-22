@@ -31,7 +31,7 @@ The repository follows the open [Agent Skills specification](https://agentskills
 | [`frame-inquiry`](frame-inquiry/) | Frame or reframe an Inquiry's Current Inquiry, Working Theory, and Next Move. |
 | [`design-experiment`](design-experiment/) | Design a bounded test of a Working Theory with a review handoff back to the Inquiry. |
 | [`compare-perspectives`](compare-perspectives/) | Use genuinely distinct perspectives to expose tension and form better integrated judgment. |
-| [`shape-writing-spine`](shape-writing-spine/) | Interview an author into a Core Idea and connected claims with explicit transitions before drafting a Work. |
+| `create-writing-spine`](create-writing-spine/) | Interview an author into a concise Core Idea and three connected claims, with unlabeled idea, takeaway, and transition bullets. |
 | [`analogy-builder`](analogy-builder/) | Build analogies that preserve an idea's structure, expose their limits, and sharpen its formulation where useful. |
 | [`map-shape`](map-shape/) | Turn an initial product understanding into a concise Problem / Solution / Scopes pitch with named scopes of independently releasable user value. |
 | [`map-product-anatomy`](map-product-anatomy/) | Map a product surface, flow, or shaped feature into Anatomica, optionally breadboard its screens and interactions, and reconcile discoveries with the source pitch. |
@@ -40,7 +40,7 @@ The repository follows the open [Agent Skills specification](https://agentskills
 
 Each Skill contains its entrypoint, a representative example, and lightweight eval prompts and rubric. Some Skills add a focused reference when the method or taxonomy benefits from progressive disclosure.
 
-Shape Writing Spine and Analogy Builder are packaged from Candidate methods in Notion's Toolkit. Their inclusion here does not change their Toolkit status or imply independent behavioral validation.
+Create Writing Spine and Analogy Builder are packaged from Candidate methods in Notion's Toolkit. Their inclusion here does not change their Toolkit status or imply independent behavioral validation.
 
 ## Install and Use
 

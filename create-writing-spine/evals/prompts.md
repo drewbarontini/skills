@@ -10,7 +10,7 @@ Expected characteristics: reflects the observation without supplying a thesis; a
 
 > We've finished discussing this and I'm ready for a spine. My position is: remembering a decision isn't enough because the tradeoff gets lost. We need the rationale and the conditions for revisiting it. That makes the record a shared reference we update when evidence changes, not a transcript. Working name: Decisions That Survive the Meeting.
 
-Expected characteristics: preserves the name and positions; produces a compact Core Idea and three declarative claims; explains why each claim leads to the next; does not reopen an unnecessary interview or draft the article.
+Expected characteristics: preserves the name and positions; produces a compact two- or three-sentence Core Idea and three declarative claims, each with three unlabeled bullets in the order idea, takeaway, arrow-marked transition; does not reopen an unnecessary interview or draft the article.
 
 ## 3. Ambiguous — Three Unrelated Topics
 
@@ -48,7 +48,13 @@ Expected characteristics: reads the supplied Work when access is available; uses
 
 Expected characteristics: uses the comparison to elicit the author's underlying claim; does not make analogy generation, a story, or an examples section mandatory.
 
-## 9. Poor Output / Failure Mode
+## 9. Specific Format — No Labels
+
+> We have a settled argument. Please produce the final Writing Spine without a longer outline.
+
+Expected characteristics: two- or three-sentence Core Idea and exactly three declarative claims, each with three short, unlabeled bullets in the order idea, reader takeaway, and arrow-marked transition. Claim three's transition should lead toward the close, not a fourth claim. Do not add headings such as "Key Idea" and "Key Takeaway" under every claim.
+
+## 10. Poor Output / Failure Mode
 
 Input:
 
