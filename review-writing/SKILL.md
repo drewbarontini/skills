@@ -61,6 +61,8 @@ Use `None identified` under Clarity & Coherence or Grammar & Mechanics when appr
 
 ## Relationship to Writing Spine
 
+[Writing Mirror in Notion](https://app.notion.com/p/4030a102c72281b5aec4fc3507126558) is the canonical Toolkit Skill (v0.1.0; Candidate). This GitHub Skill is its portable implementation.
+
 [Create Writing Spine](https://github.com/drewbarontini/skills/tree/main/create-writing-spine) interviews an author to discover a Core Idea and three connected claims before drafting. Writing Mirror independently observes an authored draft after the author writes. Neither performs the other's job. This supports Claritorium's Reflection and Expression without introducing another System or Model.
 
 ## Quality Bar
