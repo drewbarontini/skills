@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Mirror"
+  short_description: "Spot what readers notice without rewriting"
+  default_prompt: "Use $review-writing to give this draft an independent, evidence-based review without rewriting any part of it."
