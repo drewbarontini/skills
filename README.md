@@ -38,6 +38,7 @@ The repository follows the open [Agent Skills specification](https://agentskills
 | [`map-product-anatomy`](map-product-anatomy/) | Map a product surface, flow, or shaped feature into Anatomica, optionally breadboard its screens and interactions, and reconcile discoveries with the source pitch. |
 | [`review-coherence`](review-coherence/) | Find meaningful product drift, contradictions, and model gaps, then recommend focused corrections. |
 | [`classify-work`](classify-work/) | Give product work clear coordinates for Type, Impact, Landscape, form, and routing. |
+| [`ownership-audit`](ownership-audit/) | Audit capacity and flow, then guide approved interventions that preserve Continuous Ownership. |
 
 Each Skill contains its entrypoint, a representative example, and lightweight eval prompts and rubric. Some Skills add a focused reference when the method or taxonomy benefits from progressive disclosure.
 
