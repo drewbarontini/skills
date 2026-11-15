@@ -23,6 +23,22 @@ Claritorium and Equilio are the canonical sources. Individual Skills record thei
 
 The repository follows the open [Agent Skills specification](https://agentskills.io/specification). Metadata values are strings for compatibility with the specification, including comma-separated provenance when a Skill draws from multiple sources.
 
+## Choose by Job
+
+These are **independent, portable jobs**, not a required sequence or a second software-delivery methodology. Choose a skill when its trigger matches the work and its output is useful. A skill can be used on its own without installing the others.
+
+| When you need to… | Start with | Expected output |
+| --- | --- | --- |
+| Make sense of repeated observations | [`identify-pattern`](identify-pattern/) | A transferable Pattern with evidence and limits |
+| Clarify a question or test a working theory | [`frame-inquiry`](frame-inquiry/) or [`design-experiment`](design-experiment/) | An Inquiry frame or bounded test |
+| Compare competing interpretations | [`compare-perspectives`](compare-perspectives/) | Explicit tensions and integrated judgment |
+| Develop or evaluate authored writing | [`create-writing-spine`](create-writing-spine/) or [`review-writing`](review-writing/) | A three-claim spine or feedback without rewriting |
+| Explain an idea through analogy | [`analogy-builder`](analogy-builder/) | An analogy with structural correspondences and limits |
+| Shape or inspect a product | [`map-shape`](map-shape/), [`map-product-anatomy`](map-product-anatomy/), or [`review-coherence`](review-coherence/) | A pitch, anatomy map, or coherence findings |
+| Route work or inspect ownership | [`classify-work`](classify-work/) or [`ownership-audit`](ownership-audit/) | Work coordinates or an ownership audit |
+
+For a **context-preserving software development method** spanning framing, implementation, integration, and human review, use [Equilio Coding](https://github.com/drewbarontini/equilio-coding) instead. These portable skills can complement that method, but are not required by it. The **Notion Toolkit** remains the canonical inventory of methods and their maturity; publishing a skill here does not automatically change its Toolkit status.
+
 ## Skill Catalog
 
 | Skill | Job |
@@ -31,7 +47,7 @@ The repository follows the open [Agent Skills specification](https://agentskills
 | [`frame-inquiry`](frame-inquiry/) | Frame or reframe an Inquiry's Current Inquiry, Working Theory, and Next Move. |
 | [`design-experiment`](design-experiment/) | Design a bounded test of a Working Theory with a review handoff back to the Inquiry. |
 | [`compare-perspectives`](compare-perspectives/) | Use genuinely distinct perspectives to expose tension and form better integrated judgment. |
-| `create-writing-spine`](create-writing-spine/) | Interview an author into a concise Core Idea and three connected claims, with unlabeled idea, takeaway, and transition bullets. |
+| [`create-writing-spine`](create-writing-spine/) | Interview an author into a concise Core Idea and three connected claims, with unlabeled idea, takeaway, and transition bullets. |
 | [`review-writing`](review-writing/) | Writing Mirror: independently observe meaning, clarity, grammar, and reader questions without rewriting the author's work. |
 | [`analogy-builder`](analogy-builder/) | Build analogies that preserve an idea's structure, expose their limits, and sharpen its formulation where useful. |
 | [`map-shape`](map-shape/) | Turn an initial product understanding into a concise Problem / Solution / Scopes pitch with named scopes of independently releasable user value. |
@@ -52,7 +68,7 @@ Agent Skills clients discover a directory by its `SKILL.md`; installation locati
 2. Copy or link the desired Skill directory into a location your compatible agent scans for Skills.
 3. Ask for the job in ordinary language, or invoke the Skill explicitly if your client supports explicit invocation.
 
-For repository-scoped use, compatible clients commonly scan `.agents/skills/`. Consult the client documentation before choosing a global or project location.
+For repository-scoped use, compatible clients commonly scan `.agents/skills/`. Consult the client documentation before choosing a global or project location. For example, a local checkout can be used by copying a selected directory such as `identify-pattern/` into a client-supported skills directory, keeping its `SKILL.md` and supporting files together. This repository does not require the `npx skills` CLI; follow your client's documented discovery and installation rules.
 
 ## Propose a Skill
 
